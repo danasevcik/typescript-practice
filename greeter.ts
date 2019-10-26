@@ -66,5 +66,13 @@ let octal: number = 0o744;
 
 // string
 // uses double or single quotes
+// tempate strings are defined in backticks and can span multiple lines and have embedded expressions ${}
 let color: string = "blue";
-color = 'red'; 
+color = 'red';
+
+// array
+// can define with type followed by []
+// or
+// Array<elementType>
+let list: number[] = [1, 2, 3];
+let list: Array<number> = [1, 2, 3];
