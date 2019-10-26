@@ -1,5 +1,5 @@
 // ran tsc
-// adds additional typescript
+// adds additional TypeScript
 // adds type to function argument
 // changes var to let
 
@@ -13,7 +13,7 @@
 
 // interface syntax
 // interface describes an object
-// different from class in typescript - doesn't provide implementation or initialization
+// different from class in TypeScript - doesn't provide implementation or initialization
 
 // interface Person {
 //     firstName: string;
@@ -51,3 +51,20 @@ function greeter(person: Person) {
 let user = new Student("Jane", "M.", "User");
 
 document.body.textContent = greeter(user);
+
+// basic types in TypeScript
+
+// boolean
+let isDone: boolean = false;
+
+// number
+// all numbers are floating point values
+let decimal: number = 6;
+let hex: number = 0xf00d;
+let binary: number = 0b1010;
+let octal: number = 0o744;
+
+// string
+// uses double or single quotes
+let color: string = "blue";
+color = 'red'; 
